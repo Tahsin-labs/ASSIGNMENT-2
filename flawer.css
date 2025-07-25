@@ -204,6 +204,10 @@ nav{
 .main-1{
   flex-direction: column-reverse;
 }
+.font{
+  font-weight: 500;
+  font-size:40px;
+}
 .all-product{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
