@@ -295,9 +295,6 @@ nav{
   flex-direction: column;
   
 }
-.center{
-
-}
 .center h2{
   color: white;
   font-size: 20px;
@@ -307,7 +304,6 @@ nav{
   height: 20px;
  
 }
-
 .btno{
   width: 70px;
   height: 20px;
@@ -338,6 +334,9 @@ nav{
 }
 .title p{
   padding:0;
+}
+.rsiz{
+  width: 100%;
 }
 
 
