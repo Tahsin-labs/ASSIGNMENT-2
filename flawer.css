@@ -46,10 +46,13 @@ nav{
 }
 
 .logo {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem;
   color: #f96d00;
-  font-weight: bold;
+  font-weight: bold; */
+   width: 50px;
+
 }
+
 
 .main-1 {
   display: flex;
@@ -235,11 +238,40 @@ nav{
 
 
 
+@media screen and (max-width:576px){
+  .hide{
+    display: none;
+  }
+  .pic{
+  width:70px ; 
+}
+.main-1{
+  flex-direction: column-reverse;
+}
+.all-product{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  
+}
+.main-2{
+  width: 85%;
+  margin: 0;
+  /* background-color: #bbb; */
+
+}
+.product-card{
+
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+}
+}      
 
 
 
-/* RESPONSIVE */
-/* @media (max-width: 768px) {
+
+
+ /* @media (max-width: 768px) {
   .hero {
     flex-direction: column;
     text-align: center;
