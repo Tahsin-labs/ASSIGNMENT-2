@@ -77,6 +77,12 @@ nav{
 .tocenter{
   text-align: center;
 }
+.tocenter h2{
+   font-size: 50px
+}
+.tocenter p{
+ padding: 0 240px 0 240px;
+}
 .all-product{
     display: grid;
     grid-template-columns:repeat(4, 2fr);
@@ -127,6 +133,12 @@ nav{
 .title{
   margin: 90px 0 90px;
   text-align: center;
+}
+.title h2{
+  font-size: 50px;
+}
+.title p{
+  padding: 0 240px 0 240px;
 }
 .main-4{
    width: 85%;
@@ -265,6 +277,79 @@ nav{
     margin-bottom: 20px;
     
 }
+.main-3{
+  
+  width: 85%;
+  margin: 0 auto;
+  /* background-color: #bbb; */
+  display: flex;
+  margin-top: 90px;
+   flex-direction: column;
+
+}
+.big{
+  font-size: 30px;
+}
+.deal-img{
+  display: flex;
+  flex-direction: column;
+  
+}
+.center{
+
+}
+.center h2{
+  color: white;
+  font-size: 20px;
+}
+.center input{
+  width: 170px;
+  height: 20px;
+ 
+}
+
+.btno{
+  width: 70px;
+  height: 20px;
+  background-color: #E95A08;
+  color: white;
+  border: none;
+}
+.footer-top{
+  display: flex;
+   flex-direction: column;
+}
+.footer-links {
+  line-height:60px;
+  
+}
+.footer-links ul{
+  margin-left: -45px;
+}
+
+.tocenter h2{
+   font-size: 30px
+}
+.tocenter p{
+ padding: 0 ;
+}
+.title h2{
+  font-size: 30px;
+}
+.title p{
+  padding:0;
+}
+
+
+
+
+
+
+
+
+
+
+
 }      
 
 
